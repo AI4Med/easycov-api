@@ -20,3 +20,13 @@ export type BloodExamData = {
   rdw: number;
   c_reactive_number: number;
 };
+
+/** Specifies an entry belonging to a blood exam */
+export type BloodExamEntry<T> = {
+  label: string;
+  unit: string;
+  comments?: string;
+};
+
+/** Blood exam specification */
+export type BloodExamSpecification = { [key: string]: BloodExamEntry<number> };
