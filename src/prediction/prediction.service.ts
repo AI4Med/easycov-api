@@ -13,8 +13,8 @@ export class PredictionService {
   private predictionAPI = axios.create({
     baseURL:
       process.env.NODE_ENV === 'production'
-        ? 'http://10.0.0.7:8081'
-        : 'http://localhost:8081',
+        ? 'http://10.0.0.7:8082'
+        : 'http://localhost:8082',
   });
 
   /** Request a prediction to the R code running in the local network. */
