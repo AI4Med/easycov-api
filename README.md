@@ -2,13 +2,6 @@
   <img src="logo.png" class="center">
 </div>
 
-<style>
-.center {
-  display: block;
-  margin: auto;
-}
-</style>
-
 # EasyCoV: API
 
 This repository implements a service API for EasyCoV.
