@@ -13,7 +13,7 @@ export class PredictionService {
   private predictionAPI = axios.create({
     baseURL:
       process.env.NODE_ENV === 'production'
-        ? 'http://10.0.0.7:8082'
+        ? 'http://10.0.0.51:8082'
         : 'http://localhost:8082',
   });
 
