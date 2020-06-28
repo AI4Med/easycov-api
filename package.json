@@ -1,7 +1,7 @@
 {
   "name": "easycov-api",
   "version": "0.0.1",
-  "description": "",
+  "description": "EasyCoV's service API",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
