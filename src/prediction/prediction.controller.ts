@@ -3,6 +3,7 @@ import { PredictionService } from './prediction.service';
 import { RequestPredictionDTO } from './dto/request-prediction.dto';
 import { BloodExamSpecification } from './types';
 import { bloodExamSpecification } from './blood-exam';
+import { Recaptcha } from '@nestlab/google-recaptcha';
 
 @Controller('prediction')
 export class PredictionController {
